@@ -290,3 +290,43 @@ main {
   margin-bottom: 1rem;
   line-height: 1.6;
 }
+/* BOUTONS DE LA PAGE TAGS */
+.tag-btn {
+  background-color: #9A48D0; /* Violet principal */
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.tag-btn:hover {
+  background-color: #B288C0; /* Violet plus clair au survol */
+  transform: translateY(-2px); /* petit effet "saut" */
+}
+
+.tag-btn-active {
+  background-color: #7BC950; /* Vert quand sélectionné */
+  color: #333333;
+}
+
+.tag-btn-clear {
+  background-color: #e2e8f0; /* Gris clair pour le bouton "Clear" */
+  color: #333333;
+}
+.dark .fragment-card {
+  background-color: #2a2a2a;  /* fond sombre, ton gris foncé */
+  border-color: #444;         /* bord plus visible */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+  color: #e0e0e0;             /* texte clair */
+}
+
+.dark .fragment-card:hover {
+  background-color: #3a3a3a;  /* un peu plus clair au hover */
+}
+.dark .fragment-title {
+  color: #e0e0e0;
+}

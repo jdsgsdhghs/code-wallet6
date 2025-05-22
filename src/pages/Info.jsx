@@ -8,7 +8,7 @@ function Info() {
         and copy your code snippets.
       </p>
       <p>
-        Project developed by <strong>Dioumanara Hamidou</strong> as part of the Bachelor 2 program at  Multimédia school.
+        Project developed by <strong>Manel SMAIL</strong> as part of the Bachelor 2 program at  Multimédia school.
       </p>
       <p>© 2025 Code Wallet. All rights reserved.</p>
     </div>

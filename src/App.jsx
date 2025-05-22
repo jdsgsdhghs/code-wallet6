@@ -6,14 +6,19 @@ import Tags from './pages/Tags';
 import Form from './pages/Form';
 import Header from './components/Header';
 import './style.css'; 
+import 'prismjs';
+import 'prismjs/themes/prism-tomorrow.css';
 
 function App() {
   return (
-    <Router>
-    <Header />
+   
+<Router>
+      {/* Le Header avec Dark Mode */}
+      <Header />
+
     <main className="main">
       <Routes>
-        <Route path="/" element={<Info />} />
+        <Route path="/" element={<Fragments />} />
 
         <Route path="/info" element={<Info />} />
         <Route path="/fragments" element={<Fragments />} />
